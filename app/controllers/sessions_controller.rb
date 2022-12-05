@@ -17,8 +17,7 @@ class SessionsController < ApplicationController
         else
             render json: {errors: ["user not logged in"]}, status: :unauthorized
         end
-        # session.delete :user_id
-        # head :no_content
+        
 
 
     end
